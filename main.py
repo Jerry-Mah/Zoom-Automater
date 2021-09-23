@@ -4,7 +4,7 @@ import time
 import pandas as pd
 
 
-df = pd.read_csv("C:\\Users\\91986\\Desktop\\timings.csv")
+df = pd.read_csv("C:\\Users\\91986\\Desktop\\timings.csv")  # the path of the excel sheet has to be given here 
 
 def meeting_start(link):
     webbrowser.open(link) 
